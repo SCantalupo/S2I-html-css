@@ -189,7 +189,7 @@ h4{
 .about img {
     height: auto;
     width: 430px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-bottom: 140px;
     
 }
@@ -298,6 +298,10 @@ button:hover{
     overflow: hidden;
     text-align: center;
 
+}
+
+#card3{
+    width: 380px;
 }
 
 h5{
@@ -584,8 +588,8 @@ textarea {
 
     .main img {
        width: 90%;
-       border-radius: 50%;
-       opacity: 90%;
+       border-radius: 5%;
+       opacity: 85%;
     }
     
     #btn-no {
@@ -618,7 +622,7 @@ textarea {
         justify-content:left;
         align-items: center;
         text-align: center;
-        font-size: 54px;
+        font-size: 74px;
     }
 
     .content h3 {
