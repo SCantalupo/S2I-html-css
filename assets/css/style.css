@@ -63,7 +63,8 @@ span{
 
 nav ul li {
     list-style-type: none;
-    display: inline-flex;
+    display:inline-flex;
+    
     
     padding-left:20px;
     
@@ -79,6 +80,7 @@ nav ul li a
     text-decoration: none;
     font-weight : bold;
     text-transform : capitalize;
+    
     }
 
 
@@ -280,8 +282,8 @@ button:hover{
 }
 
 .card {
-    height: 365px; 
-    width: 435;
+    height: 65px; 
+    width:60%;
     padding: 20px 35px;
     background: #1e0640;
     border-radius: 15px;
@@ -493,6 +495,19 @@ footer{
     
 
 }
+
+input  { 
+    padding: 2%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+textarea {
+    padding: 2%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 
 
 
