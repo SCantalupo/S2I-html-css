@@ -19,7 +19,7 @@ nav {
     padding-right: 8%;
     background-color:#1e0640;
     padding-bottom: 20px;
-    position: fixed ;
+    position: fixed;
     top: 0;
     width: 100%;
     border-bottom: 4px solid #661598;
@@ -567,7 +567,7 @@ textarea {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 95%;
+        width: 90%;
     }
 
     .about-text button {
