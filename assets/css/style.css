@@ -8,21 +8,6 @@
 
 }
 
-.hero {
-    height: 100vh;
-    width:100% ;
-    background-image: url(../img/backgroung.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-
-
-
-
-
 
 
 nav {
@@ -113,6 +98,25 @@ nav ul li a:hover{
     text-align: center;
     transition: .4s;
 }
+/* start Hero */
+.hero {
+    
+    height: 100vh;
+    width:100% ;
+    background-image: url(../img/backgroung.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+body {
+    background-image: none;
+    background-image: none;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
 
 .content{
     position: absolute;
@@ -144,6 +148,10 @@ h4{
     letter-spacing: 2px;
     font-size: 20px;
 }
+
+/*End Hero*/
+
+/* start chi sono*/
 
 .about {
     width: 100%;
@@ -226,7 +234,9 @@ button:hover{
     cursor: pointer;
 }
 
+/* end chi sono */
 
+/* start skills*/
 .service {
     background: url(../img/background1.jpg);
     width: 100%;
@@ -299,9 +309,9 @@ h5{
     
     
 }
+ /*end skills*/
 
-
-
+/* start contattami */
 
 .contattami{
     width: 100%;
@@ -342,7 +352,9 @@ h5{
     border: 2px solid #f9004d ;
     cursor: pointer;
 }
+/* end contattami */
 
+/* start footer */
 .footer{
     position: relative;
     width: 100%;
@@ -415,7 +427,9 @@ h5{
     text-align: center;
 }
 
+/* end footer */
 
+/* start contacts*/
 #contact{
     height: 100vh;
     display: flex;
@@ -503,7 +517,7 @@ textarea {
     font-size: 16px;
     font-weight: 600;
 }
-
+/* end contacts*/
 
 
 
